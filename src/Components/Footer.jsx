@@ -43,8 +43,8 @@ const Footer = () => {
        
           <div className="space-y-4">
             <h4 className="text-xl font-semibold text-white mb-4">Contact Me</h4>
-            <p className="text-gray-300">Email: <a href="mailto:milot.verbani@example.com" className="hover:text-white transition-colors">milot.verbani@example.com</a></p>
-            <p className="text-gray-300">Phone: <a href="tel:+38344123456" className="hover:text-white transition-colors">+383 44 123 456</a></p>
+            <p className="text-gray-300">Email: <a href="mailto:milot.verbani233@gmail.com" className="hover:text-white transition-colors">milot.verbani@example.com</a></p>
+            <p className="text-gray-300">Phone: <a href="tel:(+383)-49-329-546" className="hover:text-white transition-colors">+383 44 123 456</a></p>
           </div>
         </div>
 
