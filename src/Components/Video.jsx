@@ -1,5 +1,6 @@
 // Video.js
-import React from 'react';
+import React from "react";
+import blackholeVideo from "/blackhole.webm"; 
 
 function Video() {
   return (
@@ -8,8 +9,8 @@ function Video() {
       muted
       loop
       className="w-full h-full z-10"
-    > 
-      <source src="/blackhole.webm" type="video/webm" />
+    >
+      <source src={blackholeVideo} type="video/webm" />
       Your browser does not support the video tag.
     </video>
   );
