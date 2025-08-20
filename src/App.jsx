@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Video from './Components/Video';
+
 import Background from './Components/Background';
 import Projects from './Pages/Projects';
 import Testimonials from './Pages/Testimonials';
@@ -16,9 +16,7 @@ function App() {
     <>
       <Navbar />
 
-      <div className="video-wrapper absolute left-1/2 transform -translate-x-1/2 z-10 w-full max-w-3xl">
-        <Video />
-      </div>
+      
 
       <div className="relative z-20">
         <Home />
