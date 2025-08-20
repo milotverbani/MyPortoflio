@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import Marqueeslider from '../Components/Marqueeslider.jsx';
-import milotCV from '../Components/CV-MilotVerbani.pdf'; // sigurohu që CV-ja të jetë këtu
+import milotCV from '../Components/CV-MilotVerbani.pdf'; 
 
 function Home() {
   return (
