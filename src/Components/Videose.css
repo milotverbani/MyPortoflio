@@ -1,0 +1,47 @@
+.video-wrapper {
+  bottom: 80vh; /* default për mobile */
+  transition: bottom 0.5s ease-in-out; /* lëvizje smooth */
+  position: absolute;
+  left: 390px;
+  transform: translateX(-50%);
+}
+
+/* për screens > 640px (sm) */
+@media (min-width: 640px) {
+  .video-wrapper {
+    bottom: 18vh;
+  }
+}
+
+/* për screens > 768px (md) */
+@media (min-width: 768px) {
+  .video-wrapper {
+    bottom: 16vh;
+  }
+}
+
+/* për screens > 1024px (lg) */
+@media (min-width: 1024px) {
+  .video-wrapper {
+    bottom: 64vh;
+
+  }
+}
+
+/* për screens > 1280px (xl) */
+@media (min-width: 1536px) {
+  .video-wrapper {
+    bottom: 63vh;
+    position: absolute; 
+    left: 72%;
+  }
+}
+
+/* për screens > 1536px (2xl) */
+@media (min-width: 1839px) {
+  .video-wrapper {
+    bottom: 70vh;
+    position: absolute;
+    left: 69%;
+  }
+}
