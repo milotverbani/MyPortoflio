@@ -77,7 +77,7 @@ const Projects = () => {
     : projects.filter(project => project.tags.includes(activeFilter));
 
   return (
-    <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section id="projects" className="py-20 bg-gray-50 bg-gradient-to-br from-[#0a0b1e] via-[#0e1447] to-[#1a0f2e]">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-4 text-gray-800 dark:text-white">
          My Projects
@@ -104,7 +104,7 @@ const Projects = () => {
         </div>
         
      
-        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <motion.div
               key={project.id}
